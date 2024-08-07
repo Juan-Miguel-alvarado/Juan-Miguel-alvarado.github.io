@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    margin: auto;
+    color: #221B1B;
+}
+
+#historia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+
+#actualidad{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+
+#fide{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+
+.todo{
+    width: 70px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#221B1B;
+    background: #FEF6E8;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.ulTop5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
